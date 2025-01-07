@@ -9,6 +9,9 @@
 
 
 /* sheared style */
+.text-center{
+    text-align: center;
+}
 .second-back{
     background-color: #FFF8F3;
 }
@@ -93,13 +96,19 @@ nav ul{
 main{
     max-width: 1040px;
     margin: 0 auto;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 /* about styles */
 .about{
+    font-family: "Open Sans", serif;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 
 }
 .item-des{
@@ -109,4 +118,20 @@ main{
     font-family: "Open Sans", serif;
     display: flex;
     justify-content: space-around;
+    
+}
+/* skill section style */
+.skills{
+    font-family: "Open Sans", serif;
+
+}
+.skill-cont{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
 }
