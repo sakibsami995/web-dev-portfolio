@@ -88,6 +88,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 150px;
+    font-family: "Open Sans", serif;
 }
 .banner-contant{
     max-width: 580px;
